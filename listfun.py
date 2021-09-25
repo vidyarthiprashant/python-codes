@@ -1,0 +1,21 @@
+a=[]
+s=int(input("enter size"))
+for i in range(s):
+    v=input("enter val")
+    a.append(v)
+for i in range (s):
+    print(a[i])
+print(len(a))
+print(max(a))
+g=a.count(input("enter to count"))
+print(g)
+f=a.index(input("enter index"))
+print(f)
+h=a.insert(int(input("enter the index")),input("enter item"))
+print(a)
+i=a.remove(input("enter item top del"))
+print(a)
+a.sort()
+print(a)
+a.pop()
+print(a)
